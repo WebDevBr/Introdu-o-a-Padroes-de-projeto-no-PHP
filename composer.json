@@ -1,0 +1,10 @@
+{
+    "require-dev": {
+        "squizlabs/php_codesniffer":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebDevBr\\Html\\":"src"
+        }
+    }
+}
