@@ -45,3 +45,9 @@ Simples, não?
 	- Criando o builder
 	- Criando o director
 	- "Automagicando" as coisas para quem gosta
+
+## Links interessantes
+
+- [Wikipedia com introdução e descrição de 23 padrões de projeto](https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software)
+- [Wikipedia com explicação sobre MVC como uma design pattern](https://pt.wikipedia.org/wiki/MVC)
+- [Uma discução interessante sobre MVC como padrão de projeto](http://stackoverflow.com/questions/9119657/how-do-gang-of-four-design-patterns-fit-into-the-mvc-paradigm) - em inglês, quem se abilita a traduzir?
