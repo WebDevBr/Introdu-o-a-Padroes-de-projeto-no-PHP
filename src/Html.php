@@ -4,26 +4,22 @@ namespace WebDevBr\Html;
 
 class Html
 {
-    public function a($text, $href, array $attribute = null)
+    public static function builder($method, $params)
     {
-        $attribute = $this->attribute($attribute);
-        return "<a href=\"{$href}\"{$attribute}>{$text}</a>";
+        $tag = (new Builder)
+        ->params($params)
+        ->call($method);
+
+        return $tag;
     }
 
-    public function img($src, array $attribute = null)
+    public function __call($method, $params)
     {
-        $attribute = $this->attribute($attribute);
-        return "<img src=\"{$src}\"{$attribute}>";
+        return $this->builder($method, $params);
     }
 
-    private function attribute($attribute)
+    public static function __callStatic($method, $params)
     {
-        if ($attribute !== null) {
-            foreach ($attribute as $k => $v) {
-                $data[] = $k.'="'.$v.'"';
-            }
-            $attribute = ' '.implode(' ', $data);
-        }
-        return $attribute;
+        return self::builder($method, $params);
     }
 }
