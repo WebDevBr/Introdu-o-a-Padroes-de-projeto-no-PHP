@@ -22,25 +22,25 @@ Simples, não?
 
 ## O que veremos?
 
-1 - Introdução
+- Introdução
 	- Orientação a objetos, será que você sabe?
 	- A importância do SOLID
 	- Quando usar calisthenics objects?
-2 - Introdução a padrões de projeto
+- Introdução a padrões de projeto
 	- Porque programar para uma interface e não para uma implementação
 	- O que é interface na visão de padrões de projeto
 	- The Gang of Four
 	- Quais tipos e escopos dos padrões de projeto
 	- Quantos padrões de projeto existem?
-3 - Apresentando o problema
+- Apresentando o problema
 	- Qual problema vamos resolver nesta série de vídeos
 	- Nossa estrutura de arquivos
 	- O Composer
-4 - Template method
+- Template method
 	- Pra que serve? Qual o tipo?
 	- Criando a classe abstrata
 	- Programando para uma interface
-5 - Builder pattern
+- Builder pattern
 	- Pra que serve? Qual o tipo?
 	- Criando o builder
 	- Criando o director
