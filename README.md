@@ -46,6 +46,15 @@ Simples, não?
 	- Criando o director
 	- "Automagicando" as coisas para quem gosta
 
+## Evolução das aulas
+
+ - [Introdução](https://github.com/WebDevBr/Introdu-o-a-Padroes-de-projeto-no-PHP/commit/9bc1bc0e673dca00795e94c879da91df4df48fad)
+ - [Links interessantes](https://github.com/WebDevBr/Introdu-o-a-Padroes-de-projeto-no-PHP/commit/914cf3949e9cb801c5c86ebd3d47a9586a438c2b)
+ - [Programando para uma implementação](https://github.com/WebDevBr/Introdu-o-a-Padroes-de-projeto-no-PHP/commit/d61e56f72af82d27fbff9dc9b2bcb25af8e66e8e)
+ - [Programando para uma interface](https://github.com/WebDevBr/Introdu-o-a-Padroes-de-projeto-no-PHP/commit/668e6df018c6eb7b2b7abe4665288fa89b558e74)
+ - [Criando o builder](https://github.com/WebDevBr/Introdu-o-a-Padroes-de-projeto-no-PHP/commit/d350c1055f866f5915c8592cdd78dafbd90ca7a6)
+ - [Atual](https://github.com/WebDevBr/Introdu-o-a-Padroes-de-projeto-no-PHP)
+
 ## Links interessantes
 
 - [Wikipedia com introdução e descrição de 23 padrões de projeto](https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software)
